@@ -1,0 +1,22 @@
+
+body {
+    background: #f0f8ff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+.flipbook {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.flipbook img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    scroll-snap-align: start;
+}
